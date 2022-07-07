@@ -1,0 +1,40 @@
+.App {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.timer {
+    font-size: 100px;
+    margin-top: -210px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 120px;
+}
+
+.btn {
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    width: 120px;
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    color: #000;
+    transition: all 0.5s;
+}
